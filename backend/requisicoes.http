@@ -1,0 +1,20 @@
+GET http://localhost:3001/produto
+
+
+###
+POST http://localhost:3001/produto
+content-type: application/json
+
+{
+    "nome": "fgdgd",
+    "description": "Notebook Dell Inspiron 15 3000",
+    "preco": 3500.00
+}
+
+###
+PATCH http://localhost:3001/produto/2
+content-type: application/json
+
+{
+    "nome": "jogis"
+}
